@@ -1,0 +1,23 @@
+/* @import url */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding:0%;
+  margin: 0%;
+
+}
+
+
+body {}
+
+  .content{
+    height: 200vh;
+    background-color: #333;
+    background-blend-mode: multiply;
+    display: grid;
+    place-items: center
+  }
+
+  header {
+    background:
+  }
