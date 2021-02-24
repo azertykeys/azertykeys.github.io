@@ -103,6 +103,7 @@ img {
 
 .body-container {
     width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .blogroll {
@@ -111,11 +112,18 @@ img {
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
 
 }
+
 .blogroll h {
     margin: 0;
+}
+
+#remarkbox-div{
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .about-container {
