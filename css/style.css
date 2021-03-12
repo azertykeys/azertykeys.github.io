@@ -123,52 +123,56 @@ img {
     margin-left: auto;
     padding: 30px;
     padding-top: 15px;
-
-
 }
 
-.earworm-container{
-    background-color: inherit;
+.sotw-container-container {
+    display: flex;
     float: right;
-    margin: 15px 0 15px 15px;
+    flex-direction: column;
+    margin: 0 0 20px 25px;
+}
+
+.sotw-container{
+    margin: 15px 0 10px 0;
     padding: 5px;
     border: rgb(66, 0, 41);
     border-width: 2px;
-    border-style:solid;
+    border-style: solid;
     height: 300px;
     width: 300px;
-    
-    /* background-color: brown; */
 }
-
-.earworm-container img{
+.sotw-container img{
     position: absolute;
     opacity: 1;
     transition: opacity 0.75s;
-    height: auto;
     width: 285px;
 
 }
-.earworm-container img:hover{
+.sotw-container img:hover{
     opacity:0;
 
 }
-.earworm-container h3{
+.sotw-container h3{
+    font-weight: 550;
     text-align: center;
-    margin: 0 0 20 0;
+
 
 }
-.earworm-container p{
-    /* opacity: 0;
-    transition: opacity 1s; */
+.sotw-container p{
     text-align: center;
+
 }
-/* .earworm-container p:hover{
-    opacity: 1;
-} */
+
+.sotw-archive-link {
+    /* text-align:end; */
+}
 
 .blogroll h {
     margin: 0;
+}
+
+.sotw-label {
+    text-align: center;
 }
 
 #remarkbox-div{
@@ -275,6 +279,22 @@ img {
         background-color: rgb(88, 1, 55);
         margin-bottom: 20px;
         
+    }
+
+    .sotw-container-container{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding:0px; */
+        align-items: center;
+    }
+
+    .top-link{
+        display: none;
+    }
+
+    .sotw-container{
+        /* margin: 0; */
     }
 
     .socials img{
